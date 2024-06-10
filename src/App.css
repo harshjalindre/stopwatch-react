@@ -1,0 +1,57 @@
+.container-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box{
+  width: 50vw;
+  border: 2px solid #6c24b1;
+  border-radius: 15px;
+  padding: 10px;
+  display: grid;
+  justify-content: center;
+}
+
+.box > h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.button-group > button {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 125px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.bg-green{
+  background: rgb(0 166 0);
+  color: #fff;
+}
+
+.bg-green:hover{
+  background: rgb(0, 100, 0);
+}
+
+.bg-red{
+  background: rgb(166, 0, 0);
+  color: #fff;
+}
+
+.bg-red:hover{
+  background: rgb(100, 0, 0);
+}
+
+.bg-blue{
+  background: rgb(0, 44, 166);
+  color: #fff;
+}
+
+.bg-blue:hover{
+  background: rgb(0, 32, 100);
+}
